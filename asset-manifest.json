@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Half-Byte-Games-LLC/DawnWebsite/static/css/main.6136777e.css",
+    "main.js": "/Half-Byte-Games-LLC/DawnWebsite/static/js/main.fd40752e.js",
+    "static/js/453.f77284e1.chunk.js": "/Half-Byte-Games-LLC/DawnWebsite/static/js/453.f77284e1.chunk.js",
+    "static/media/logo.svg": "/Half-Byte-Games-LLC/DawnWebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Half-Byte-Games-LLC/DawnWebsite/index.html",
+    "main.6136777e.css.map": "/Half-Byte-Games-LLC/DawnWebsite/static/css/main.6136777e.css.map",
+    "main.fd40752e.js.map": "/Half-Byte-Games-LLC/DawnWebsite/static/js/main.fd40752e.js.map",
+    "453.f77284e1.chunk.js.map": "/Half-Byte-Games-LLC/DawnWebsite/static/js/453.f77284e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6136777e.css",
+    "static/js/main.fd40752e.js"
+  ]
+}
