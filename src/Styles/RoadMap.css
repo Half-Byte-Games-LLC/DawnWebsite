@@ -1,0 +1,99 @@
+﻿/* RoadMap.css */
+
+.roadmap-container {
+    padding: 50px;
+    background-color: #0d0d1e; /* Darker background color */
+    color: white;
+    text-align: center;
+}
+
+.roadmap-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roadmap-item {
+    margin-bottom: 50px;
+}
+
+.stage-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #8900F2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.stage-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.patch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.patch-card {
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1c1c2e;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.patch-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.patch-card h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.patch-card p {
+    color: #c0c0c0;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+.group:hover .tooltip {
+    opacity: 1;
+}
