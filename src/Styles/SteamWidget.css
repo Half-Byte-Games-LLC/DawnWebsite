@@ -1,0 +1,12 @@
+.steam-widget-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #1e1e1e; /* Matches the dark theme of your site */
+    color: white;
+}
+
+.steam-widget-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f5a623; /* Highlight color for consistency with the rest of the site */
+}

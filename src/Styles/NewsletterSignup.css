@@ -59,3 +59,7 @@
     font-size: 1rem;
 }
 
+.newsletter-section {
+    background-color: #000; /* Pure black background */
+    padding: 50px 0;        /* Adds vertical padding for spacing */
+}

@@ -8,6 +8,7 @@ import Footer from "./Pages/Footer";
 import './index.css'; // Make sure to include Tailwind CSS
 import React from "react";
 import config from './Config';
+import SteamWidget from "./Components/SteamWidget";
 
 console.log('Current Environment:', config.environment);
 console.log('API URL:', config.apiUrl);
@@ -17,8 +18,8 @@ function App() {
       <div className="App">
         <HeroSection />
         <Roadmap />
+         <SteamWidget/> 
         <NewsletterSignUp/>
-        <ZombieShowcase/>
         <Footer />
       </div>
   );
